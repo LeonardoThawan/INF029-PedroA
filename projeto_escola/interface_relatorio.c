@@ -88,11 +88,11 @@ int interfaceRel() {
                 break;
 
             case 5:  // listar alunos por nome
-                //! inserir chamada de funcao aqui
+                listarAlunosOrdenadosPorNome(alunos, qtd_aluno);
                 break;
 
             case 6:  // listar alunos por data de nascimento
-                //! inserir chamada de funcao aqui
+                listarAlunosOrdenadosPorDataNascimento(alunos, qtd_aluno);
                 break;
 
             case 7:  // listar professores por sexo
@@ -100,11 +100,11 @@ int interfaceRel() {
                 break;
 
             case 8:  // listar professores por nome
-                //! inserir chamada de funcao aqui
+                listarProfessoresOrdenadosPorNome(professores, qtd_professor);
                 break;
 
             case 9:  // listar professores por data de nascimento
-                //! inserir chamada de funcao aqui
+                listarProfessoresOrdenadosPorDataNascimento(professores, qtd_professor);
                 break;
 
             case 10:  // listar aniversariantes do mês
